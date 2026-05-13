@@ -1,0 +1,23 @@
+{
+    "name": "pedrovieira249/ocp-openclosedprinciple",
+    "description": "Um projeto para entender melhor o O do SOLID, o príncipio de aberto e fechado.",
+    "autoload": {
+        "psr-4": {
+            "OcpOpenclosedprinciple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Vieira",
+            "email": "angus.pedro@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OcpOpenclosedprinciple\\Tests\\": "tests/"
+        }
+    }
+}

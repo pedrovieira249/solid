@@ -1,0 +1,27 @@
+{
+    "name": "pedrovieira249/srp-singleresponsibilityprinciple",
+    "description": "Um projeto para entender melhor o S do SOLID, o príncipio da responsabilidade única.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SrpSingleresponsibilityprinciple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Vieira",
+            "email": "angus.pedro@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SrpSingleresponsibilityprinciple\\Tests\\": "tests/"
+        }
+    }
+}
